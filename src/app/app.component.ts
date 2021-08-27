@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sample-app';
+  active = 'id_1';
+
+  onClick(el) {
+    this.active = el;
+  }
 }
